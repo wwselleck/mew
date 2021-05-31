@@ -10,12 +10,14 @@ source ${ZSH_PLUGINS}/zsh-history-substring-search/zsh-history-substring-search.
 
 include ~/.zshrc.local
 
+setopt null_glob
 if [[ -d "$MEW_DATA_DIR/zsh/localZshrcs" ]]; then
   for file in "$MEW_DATA_DIR/zsh/localZshrcs"/*; do
     echo $file
     source "$file"
   done
 fi
+unsetopt null_glob
 
 unsetopt BEEP
 
