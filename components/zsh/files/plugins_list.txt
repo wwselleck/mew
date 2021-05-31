@@ -1,0 +1,3 @@
+https://github.com/zsh-users/zsh-autosuggestions
+https://github.com/ohmyzsh/ohmyzsh
+https://github.com/zsh-users/zsh-history-substring-search

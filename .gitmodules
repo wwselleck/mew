@@ -1,0 +1,9 @@
+[submodule "components/zsh/files/plugins/zsh-autosuggestions"]
+	path = components/zsh/files/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "components/zsh/files/plugins/ohmyzsh"]
+	path = components/zsh/files/plugins/ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "components/zsh/files/plugins/zsh-history-substring-search"]
+	path = components/zsh/files/plugins/zsh-history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search

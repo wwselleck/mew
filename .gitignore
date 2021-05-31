@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+components/nvim/.data/.vim/plugged
+components/nvim/.data/.vim/.netrwhist
+components/nvim/.data/.vim/init.vim
+

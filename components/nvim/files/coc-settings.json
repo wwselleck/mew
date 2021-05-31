@@ -1,0 +1,29 @@
+{
+  // javascript.jsx and typescript.tsx get auto-converted to javascriptreact and typescriptreact
+  // from coc's point of view.
+  // (I also believe it does it for typescript.jsx, but that's not in the linked release notes)
+  // https://github.com/neoclide/coc.nvim/releases/tag/v0.0.30
+  "coc.preferences.formatOnSaveFiletypes": [
+    "typescript",
+    "typescript.jsx",
+    "typescriptreact",
+    "javascript",
+    "css",
+    "less",
+    "html",
+    "json",
+    "typescript",
+    "graphql"
+  ],
+
+  "eslint.filetypes": ["javascript",  "javascriptreact", "typescript",  "typescriptreact"],
+  "eslint.autoFixOnSave": true,
+  "languageserver": {
+      "golang": {
+        "command": "gopls",
+        "rootPatterns": ["go.mod"],
+        "filetypes": ["go"]
+      }
+  },
+  "tsserver.trace.server": "verbose",
+}
