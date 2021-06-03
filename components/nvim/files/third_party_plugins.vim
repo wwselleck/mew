@@ -80,6 +80,9 @@ Plug 'CallumHoward/vim-neodark'
 Plug 'chriskempson/base16-vim'
 Plug 'gf3/molotov'
 Plug 'embark-theme/vim', { 'as': 'embark' }
+Plug 'haishanh/night-owl.vim'
+Plug 'wojciechkepka/bogster'
+
 
 """""""""""""""
 " Look into these

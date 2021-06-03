@@ -25,7 +25,7 @@ set termguicolors
 " light and dark variations
 set background=dark
 
-colorscheme embark
+colorscheme bogster
 
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE

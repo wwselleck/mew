@@ -21,7 +21,7 @@ command! Finder silent exe '!open ' . expand("%:p:h")
 "-------------------
 "let g:fzf_height = '30%'
 let g:fzf_layout = { 'down': '~30%', 'window': { 'width': 0.9, 'height': 0.6 } }
-autocmd VimEnter * nmap <leader>ff :Files<CR>
+autocmd VimEnter * nmap <leader>ff :GFiles<CR>
 autocmd VimEnter * nmap <leader>fa :Rg<CR>
 autocmd VimEnter * nmap <leader>fl :BLines<CR>
 autocmd VimEnter * nmap <leader>fb :Buffers<CR>
