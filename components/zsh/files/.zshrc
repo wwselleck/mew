@@ -21,7 +21,6 @@ unsetopt null_glob
 
 unsetopt BEEP
 
-export PATH="$HOME/bin:/usr/local/bin:/home/weston/.local/bin:$PATH"
 
 # LS Aliases
 alias l='ls -laFh'     #size,show type,human readable
@@ -68,11 +67,8 @@ bindkey '^xe' edit-command-line
 ######################
 # Python
 ######################
-# Paths are set in .zshenv
-export PYENV_VERSION="3.9.5"
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+# Pyenv is setup in .zprofile
 export PATH="$HOME/.poetry/bin:$PATH"
-
 
 ######################
 # Go

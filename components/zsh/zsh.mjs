@@ -9,6 +9,7 @@ export async function link(ctx) {
       [ctx.files.path(".zshrc"), zshConfigDir.path(".zshrc")],
       [ctx.files.path(".zshenv"), zshConfigDir.path(".zshenv")],
       [ctx.files.path(".zshenv"), "~/.zshenv"],
+      [ctx.files.path(".zprofile"), zshConfigDir.path(".zprofile")],
     ]);
   });
 }

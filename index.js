@@ -55,6 +55,8 @@ async function main() {
     process.exit(1);
   }
 
+  ctx.setComponent(component)
+
   await ctx.taskRunner.run(
     `Running ${componentName} ${task} (${taskArgs})`,
     async () => {

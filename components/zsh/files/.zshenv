@@ -12,8 +12,4 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 export VISUAL="nvim"
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-
 
