@@ -36,21 +36,21 @@ export function install(ctx) {
 ## Component Context
 When invoked, each exposed "action" function gets passed a Context parameter, which contains utilities for the functions to use.
 
-### ctx.log
+### ⛏️ ctx.log
 Just proxies to console.log for now
 
-### ctx.brew
+### ⛏️ ctx.brew
 #### ctx.brew.install
 Installs a package via brew
 
-### ctx.shell
+### ⛏️ ctx.shell
 #### ctx.shell.execute
 Executes a terminal command 
 ```js
 ctx.shell.execute('ls -ah')
 ```
 
-### ctx.files
+### ⛏️ ctx.files
 This context module gives you access to the files that are contained within your components `files` folder. 
 ```
 | zsh
