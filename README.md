@@ -32,3 +32,39 @@ export function install(ctx) {
 > mew zsh install
 ...
 ```
+
+## Component Context
+When invoked, each exposed "action" function gets passed a Context parameter, which contains utilities for the functions to use.
+
+### ctx.log
+Just proxies to console.log for now
+
+### ctx.brew
+#### ctx.brew.install
+Installs a package via brew
+
+### ctx.shell
+#### ctx.shell.execute
+Executes a terminal command 
+```js
+ctx.shell.execute('ls -ah')
+```
+
+### ctx.files
+This context module gives you access to the files that are contained within your components `files` folder. 
+```
+| zsh
+  | files <--- this directory
+    | .zshrc
+    | .zshenv
+  | zsh.mjs
+```
+
+#### ctx.files.dir
+Returns the files folder as a `Directory` object
+
+#### ctx.files.path(...relativePath)
+Returns the path of a file in the files folder given the relative path
+
+#### ctx.files.useDir(dirPath)
+Returns a new `Directory` object for a directory within the files directory
